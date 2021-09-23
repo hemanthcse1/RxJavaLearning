@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RxJavaLearning">
         <activity
-            android:name=".BasicExampleActivity"
+            android:name=".operators.OperatorsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,8 +20,8 @@
             </intent-filter>
         </activity>
 
-       <!-- <activity android:name=".BasicExampleActivity"
-            android:screenOrientation="portrait"/>-->
+        <activity android:name=".BasicExampleActivity"
+            android:screenOrientation="portrait"/>
 
         <activity android:name=".disposables.DisposablesActivity"
             android:screenOrientation="portrait"/>
