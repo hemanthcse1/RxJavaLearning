@@ -23,6 +23,9 @@
        <!-- <activity android:name=".BasicExampleActivity"
             android:screenOrientation="portrait"/>-->
 
+        <activity android:name=".disposables.DisposablesActivity"
+            android:screenOrientation="portrait"/>
+
     </application>
 
 </manifest>
